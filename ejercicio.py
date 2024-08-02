@@ -1,0 +1,1 @@
+print("\nEl nombre propuesto para la nueva Cerveza es:" + " " + input("Escribe la primera palabra: ") + " " + input("Escribe la segunda palabra: "))

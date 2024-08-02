@@ -1,0 +1,112 @@
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON
+$ git init
+Initialized empty Git repository in C:/Users/labinf2.pasto/Desktop/TCJHON/.git/
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Strings.py
+        ejercicio.py
+        input.py
+        print.py
+        print02.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Strings.py
+        ejercicio.py
+        input.py
+        print.py
+        print02.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git comit -m "ejercicios de python"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git add .
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Strings.py
+        new file:   ejercicio.py
+        new file:   input.py
+        new file:   print.py
+        new file:   print02.py
+
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git comit -m "ejercicios de python"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git remote add origin https://github.com/JHONJA91/TALENTO_T.git
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git push --set-upstream origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/JHONJA91/TALENTO_T.git'
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
+$ git push --set-upstream origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/JHONJA91/TALENTO_T.git'
+
+labinf2.pasto@PASWBAP3LBI2-22 MINGW64 ~/Desktop/TCJHON (master)
