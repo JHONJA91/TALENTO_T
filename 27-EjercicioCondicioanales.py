@@ -7,3 +7,13 @@ elif num2 > num1:
     print(f"{num2} es mayor que {num1}") 
 else:
     print(f"{num1} y {num2} Son iguales")
+    
+    
+    
+if num1 == num2:
+       print("Hola mundo")
+else:
+       print("No se encontró entrada")
+       
+        
+print("Hola uno , dos , tres")
